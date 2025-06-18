@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0073-set-matrix-zeroes) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0136-single-number) |
+| [0162-find-peak-element](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0162-find-peak-element) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -35,4 +36,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0048-rotate-image) |
+## Binary Search
+|  |
+| ------- |
+| [0162-find-peak-element](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0162-find-peak-element) |
 <!---LeetCode Topics End-->
