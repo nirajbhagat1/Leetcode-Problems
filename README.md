@@ -59,4 +59,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/1890-sum-of-beauty-of-all-substrings) |
+## Linked List
+|  |
+| ------- |
+| [0237-delete-node-in-a-linked-list](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0237-delete-node-in-a-linked-list) |
 <!---LeetCode Topics End-->
