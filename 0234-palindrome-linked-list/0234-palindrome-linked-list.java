@@ -23,11 +23,12 @@ class Solution {
         // Step 3: Compare both halves
         ListNode firstHalf = head;
         ListNode secondHalf = prev; // head of reversed second half
-        while (secondHalf != null) {
+        while (secondHalf != null && firstHalf != null) {
             if (firstHalf.val != secondHalf.val) return false;
-            firstHalf = firstHalf.next;
-            secondHalf = secondHalf.next;
-        }
+           firstHalf = firstHalf.next;
+           secondHalf = secondHalf.next;
+}
+
 
         return true;
     }
