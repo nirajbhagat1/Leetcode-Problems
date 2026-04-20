@@ -8,8 +8,7 @@ class Solution:
         revstr=""
         
         for currstr in reversed(lst):
-            if re.fullmatch(r'\s+', currstr):
-                continue
+        
 
             revstr+=currstr.strip()+" "
             
