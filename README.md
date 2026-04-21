@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0055-jump-game) |
+| [0068-text-justification](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0068-text-justification) |
 | [0073-set-matrix-zeroes](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0073-set-matrix-zeroes) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0088-merge-sorted-array) |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0068-text-justification](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0068-text-justification) |
 | [0151-reverse-words-in-a-string](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0151-reverse-words-in-a-string) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/1890-sum-of-beauty-of-all-substrings) |
 ## Counting
@@ -94,4 +96,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0055-jump-game](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0055-jump-game) |
+## Simulation
+|  |
+| ------- |
+| [0068-text-justification](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0068-text-justification) |
 <!---LeetCode Topics End-->
