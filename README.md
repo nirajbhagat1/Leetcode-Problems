@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0068-text-justification](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0068-text-justification) |
 | [0151-reverse-words-in-a-string](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0151-reverse-words-in-a-string) |
+| [1021-remove-outermost-parentheses](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/1021-remove-outermost-parentheses) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/1890-sum-of-beauty-of-all-substrings) |
 ## Counting
 |  |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0234-palindrome-linked-list](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0234-palindrome-linked-list) |
+| [1021-remove-outermost-parentheses](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/1021-remove-outermost-parentheses) |
 ## Recursion
 |  |
 | ------- |
