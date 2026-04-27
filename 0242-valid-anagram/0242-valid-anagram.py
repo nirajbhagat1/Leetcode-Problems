@@ -1,10 +1,14 @@
+# class Solution:
+#     def isAnagram(self, s: str, t: str) -> bool:
+#         freq1={}
+#         freq2={}
+#         for ch in s:
+#             freq1[ch]=freq1.get(ch,0)+1
+#         for ch in t:
+#             freq2[ch]=freq2.get(ch,0)+1
+#         return len(s)==len(t) and freq1==freq2
+from collections import Counter
+
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        freq1={}
-        freq2={}
-        for ch in s:
-            freq1[ch]=freq1.get(ch,0)+1
-        for ch in t:
-            freq2[ch]=freq2.get(ch,0)+1
-        return len(s)==len(t) and freq1==freq2
-        
+        return Counter(s) == Counter(t)
