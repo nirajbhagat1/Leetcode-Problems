@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0008-string-to-integer-atoi](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0008-string-to-integer-atoi) |
 | [0068-text-justification](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0068-text-justification) |
 | [0151-reverse-words-in-a-string](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0205-isomorphic-strings) |
