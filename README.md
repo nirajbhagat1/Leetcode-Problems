@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0162-find-peak-element) |
 | [0540-single-element-in-a-sorted-array](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0540-single-element-in-a-sorted-array) |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
 ## Bit Manipulation
 |  |
@@ -119,4 +120,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0796-rotate-string](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0796-rotate-string) |
+## Sliding Window
+|  |
+| ------- |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
+## Prefix Sum
+|  |
+| ------- |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 <!---LeetCode Topics End-->
