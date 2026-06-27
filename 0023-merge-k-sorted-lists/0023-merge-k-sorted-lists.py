@@ -28,7 +28,7 @@ class Solution:
 
         return lists[0]
 
-    def mergeSort(
+    def mergeSort( 
         self,
         l1: Optional[ListNode],
         l2: Optional[ListNode]
