@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0509-fibonacci-number](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0509-fibonacci-number) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0048-rotate-image) |
+| [0509-fibonacci-number](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0509-fibonacci-number) |
 | [1903-largest-odd-number-in-string](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/1903-largest-odd-number-in-string) |
 ## Binary Search
 |  |
@@ -129,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0021-merge-two-sorted-lists](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0234-palindrome-linked-list) |
+| [0509-fibonacci-number](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0509-fibonacci-number) |
 ## Sorting
 |  |
 | ------- |
@@ -185,4 +188,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0023-merge-k-sorted-lists) |
+## Memoization
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0509-fibonacci-number) |
 <!---LeetCode Topics End-->
