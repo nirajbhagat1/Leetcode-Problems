@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0509-fibonacci-number](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0509-fibonacci-number) |
+| [1137-n-th-tribonacci-number](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/1137-n-th-tribonacci-number) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0048-rotate-image) |
 | [0509-fibonacci-number](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0509-fibonacci-number) |
+| [1137-n-th-tribonacci-number](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/1137-n-th-tribonacci-number) |
 | [1903-largest-odd-number-in-string](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/1903-largest-odd-number-in-string) |
 ## Binary Search
 |  |
@@ -192,4 +194,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0509-fibonacci-number](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0509-fibonacci-number) |
+| [1137-n-th-tribonacci-number](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/1137-n-th-tribonacci-number) |
 <!---LeetCode Topics End-->
