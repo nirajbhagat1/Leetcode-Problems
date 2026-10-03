@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1903-largest-odd-number-in-string](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/1903-largest-odd-number-in-string) |
+| [3498-reverse-degree-of-a-string](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/3498-reverse-degree-of-a-string) |
 ## Counting
 |  |
 | ------- |
@@ -154,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0068-text-justification](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0068-text-justification) |
+| [3498-reverse-degree-of-a-string](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/3498-reverse-degree-of-a-string) |
 ## String Matching
 |  |
 | ------- |
