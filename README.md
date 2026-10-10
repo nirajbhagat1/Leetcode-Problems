@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0008-string-to-integer-atoi) |
 | [0013-roman-to-integer](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0013-roman-to-integer) |
+| [0022-generate-parentheses](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0022-generate-parentheses) |
 | [0068-text-justification](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0068-text-justification) |
 | [0151-reverse-words-in-a-string](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0205-isomorphic-strings) |
@@ -205,8 +207,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0039-combination-sum) |
 | [0077-combinations](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0090-subsets-ii) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
