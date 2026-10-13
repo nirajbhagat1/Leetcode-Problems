@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0039-combination-sum](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0039-combination-sum) |
 | [0048-rotate-image](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0048-rotate-image) |
+| [0051-n-queens](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0055-jump-game) |
 | [0068-text-justification](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0068-text-justification) |
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0039-combination-sum) |
+| [0051-n-queens](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0051-n-queens) |
 | [0077-combinations](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0090-subsets-ii) |
@@ -216,4 +218,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0022-generate-parentheses) |
+## Algorithm X
+|  |
+| ------- |
+| [0051-n-queens](https://github.com/nirajbhagat1/Leetcode-Problems/tree/master/0051-n-queens) |
 <!---LeetCode Topics End-->
