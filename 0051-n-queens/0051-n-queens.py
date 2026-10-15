@@ -44,39 +44,71 @@
 #         return result
 
 
+# class Solution:
+#     def solveNQueens(self, n: int) -> list[list[str]]:
+#         result = []
+#         board = [["."] * n for _ in range(n)]
+
+#         cols = set()
+#         diag1 = set()  # row - col
+#         diag2 = set()  # row + col
+
+#         def backtrack(row):
+#             if row == n:
+#                 result.append(["".join(r) for r in board])
+#                 return
+
+#             for col in range(n):
+#                 if (col in cols or
+#                     row - col in diag1 or
+#                     row + col in diag2):
+#                     continue
+
+#                 # Place queen
+#                 board[row][col] = "Q"
+#                 cols.add(col)
+#                 diag1.add(row - col)
+#                 diag2.add(row + col)
+
+#                 backtrack(row + 1)
+
+#                 # Backtrack
+#                 board[row][col] = "."
+#                 cols.remove(col)
+#                 diag1.remove(row - col)
+#                 diag2.remove(row + col)
+
+#         backtrack(0)
+#         return result
+
 class Solution:
     def solveNQueens(self, n: int) -> list[list[str]]:
-        result = []
-        board = [["."] * n for _ in range(n)]
+        ans = []
+        full = (1 << n) - 1
+        queens = [0] * n
 
-        cols = set()
-        diag1 = set()  # row - col
-        diag2 = set()  # row + col
-
-        def backtrack(row):
+        def dfs(row, cols, diag1, diag2):
             if row == n:
-                result.append(["".join(r) for r in board])
+                ans.append([
+                    "." * c + "Q" + "." * (n - c - 1)
+                    for c in queens
+                ])
                 return
 
-            for col in range(n):
-                if (col in cols or
-                    row - col in diag1 or
-                    row + col in diag2):
-                    continue
+            available = full & ~(cols | diag1 | diag2)
 
-                # Place queen
-                board[row][col] = "Q"
-                cols.add(col)
-                diag1.add(row - col)
-                diag2.add(row + col)
+            while available:
+                bit = available & -available
+                available ^= bit
 
-                backtrack(row + 1)
+                queens[row] = bit.bit_length() - 1
 
-                # Backtrack
-                board[row][col] = "."
-                cols.remove(col)
-                diag1.remove(row - col)
-                diag2.remove(row + col)
+                dfs(
+                    row + 1,
+                    cols | bit,
+                    ((diag1 | bit) << 1) & full,
+                    (diag2 | bit) >> 1
+                )
 
-        backtrack(0)
-        return result
+        dfs(0, 0, 0, 0)
+        return ans
