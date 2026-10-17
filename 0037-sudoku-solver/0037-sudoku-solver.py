@@ -1,71 +1,59 @@
 
 class Solution:
     def solveSudoku(self, board: list[list[str]]) -> None:
-        rows = [0] * 9
-        cols = [0] * 9
-        boxes = [0] * 9
-        empty = []
 
-        for i in range(9):
-            for j in range(9):
-                if board[i][j] == ".":
-                    empty.append((i, j))
-                else:
-                    bit = 1 << (int(board[i][j]) - 1)
-                    rows[i] |= bit
-                    cols[j] |= bit
-                    boxes[(i // 3) * 3 + j // 3] |= bit
-
-        def solve(pos):
-            if pos == len(empty):
-                return True
-
-            # Choose the empty cell with the fewest candidates (MRV)
-            best = pos
-            best_mask = 0
-            min_count = 10
-
-            for k in range(pos, len(empty)):
-                i, j = empty[k]
-                b = (i // 3) * 3 + j // 3
-                mask = 0x1FF & ~(rows[i] | cols[j] | boxes[b])
-                count = mask.bit_count()
-
-                if count < min_count:
-                    min_count = count
-                    best = k
-                    best_mask = mask
-
-                if count == 0:
+        def isSafe(i, j, dig):
+            for k in range(9):
+                if board[i][k] == dig or board[k][j] == dig:
                     return False
-                if count == 1:
+
+            r, c = (i // 3) * 3, (j // 3) * 3
+
+            for x in range(r, r + 3):
+                for y in range(c, c + 3):
+                    if board[x][y] == dig:
+                        return False
+
+            return True
+
+        def solve():
+            best_i = best_j = -1
+            best_candidates = None
+
+            # Choose the empty cell with the fewest candidates
+            for i in range(9):
+                for j in range(9):
+                    if board[i][j] == ".":
+                        candidates = []
+
+                        for dig in "123456789":
+                            if isSafe(i, j, dig):
+                                candidates.append(dig)
+
+                        if not candidates:
+                            return False
+
+                        if best_candidates is None or len(candidates) < len(best_candidates):
+                            best_i, best_j = i, j
+                            best_candidates = candidates
+
+                            if len(candidates) == 1:
+                                break
+
+                if best_candidates is not None and len(best_candidates) == 1:
                     break
 
-            empty[pos], empty[best] = empty[best], empty[pos]
-            i, j = empty[pos]
-            b = (i // 3) * 3 + j // 3
+            if best_candidates is None:
+                return True
 
-            mask = 0x1FF & ~(rows[i] | cols[j] | boxes[b])
+            for dig in best_candidates:
+                board[best_i][best_j] = dig
 
-            while mask:
-                bit = mask & -mask
-                mask ^= bit
-                digit = bit.bit_length()
-
-                board[i][j] = str(digit)
-                rows[i] |= bit
-                cols[j] |= bit
-                boxes[b] |= bit
-
-                if solve(pos + 1):
+                if solve():
                     return True
 
-                rows[i] ^= bit
-                cols[j] ^= bit
-                boxes[b] ^= bit
-                board[i][j] = "."
+                board[best_i][best_j] = "."
 
-            empty[pos], empty[best] = empty[best], empty[pos]
             return False
 
-        solve(0)
+        solve()
